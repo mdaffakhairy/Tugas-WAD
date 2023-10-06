@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    background-image: url(denim.webp);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue
+}
