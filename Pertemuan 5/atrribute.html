@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>AKN Bojonegoro</title>
+    </head>
+    <body>
+        <h1>Javascript Can Change Images</h1>
+        <img id="myImage" onclick="ChangeImage()" src="background.gif" width="498" height="280">
+        <p>Click the image to change image</p>
+        <script>
+            function ChangeImage() {
+                var image = document.getElementById('myImage');
+                if (image.src.match("windows-xp")) {
+                    image.src = "background.gif";
+                } else {
+                    image.src = "windows-xp-loading-screen.gif";
+                }
+            }
+
+
+        </script>
+    </body>
+</html>
